@@ -1,0 +1,32 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+.container{
+    height:10em;
+    position:relative;
+}
+
+.botao
+{
+    font-size:100px;
+    padding: 10px;
+    border-radius: 10px 10px;
+    position: absolute;
+    top: 200px;
+    left: 40%;
+    color:white;
+    background-color: yellow;
+    box-shadow: 10px 10px 0px black;
+}
+.botao:hover{
+    cursor: pointer;
+    background: yellow;
+    transform: scale(1.1);
+}
+.botao:active{
+    transform: translateY(4px) translateX(4px);
+    box-shadow: white 0px 0px 0px;
+}
+
