@@ -1,1 +1,1 @@
-Esse projeto tem como objetivo fazer botões animados 
+Esse projeto tem como objetivo fazer botões animados ao clicar nele.
