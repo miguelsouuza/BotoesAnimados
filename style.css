@@ -1,31 +1,100 @@
 *{
-    padding:0px;
-    margin:0px;
+    padding:0;
+    margin:0;
+    border:0;
+    text-decoration: none;
+    font-size: 100%;
+}
+body{
+    display: block;
+    background-color:darkorchid;
 }
 
-.container{
-    height:10em;
-    position:relative;
+.conteudo{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  align-items:center;
+  gap: 10px 30px;
+  margin-top: 100px;
 }
 
-.botao
+.conteudo-primeiro-botao
 {
     font-size:100px;
     padding: 10px;
     border-radius: 10px 10px;
-    position: absolute;
-    top: 200px;
-    left: 40%;
     color:white;
-    background-color: yellow;
+    background-color:darkorchid;
     box-shadow: 10px 10px 0px black;
+    margin-right: 50px;
+    margin-bottom: 50px;
 }
-.botao:hover{
+.conteudo-primeiro-botao:hover{
     cursor: pointer;
-    background: yellow;
+    background-color: darkorchid;
     transform: scale(1.1);
 }
-.botao:active{
+.conteudo-primeiro-botao:active{
+    transform: translateY(4px) translateX(4px);
+    box-shadow: white 0px 0px 0px;
+}
+
+.conteudo-segundo-botao
+{
+    font-size:100px;
+    padding: 10px;
+    border-radius: 10px 10px;
+    color:white;
+    background-color:springgreen;
+    box-shadow: 10px 10px 0px black;
+}
+.conteudo-segundo-botao:hover{
+    cursor: pointer;
+    background-color: springgreen;
+    transform: scale(1.1);
+}
+.conteudo-segundo-botao:active{
+    transform: translateY(4px) translateX(4px);
+    box-shadow: white 0px 0px 0px;
+}
+
+.conteudo-terceiro-botao
+{
+    font-size:100px;
+    padding: 10px;
+    border-radius: 10px 10px;
+    color:white;
+    background-color:burlywood;
+    box-shadow: 10px 10px 0px black;
+    margin-right: 50px;
+}
+.conteudo-terceiro-botao:hover{
+    cursor: pointer;
+    background-color: burlywood;
+    transform: scale(1.1);
+}
+.conteudo-terceiro-botao:active{
+    transform: translateY(4px) translateX(4px);
+    box-shadow: white 0px 0px 0px;
+}
+
+.conteudo-quarto-botao
+{
+    font-size:100px;
+    padding: 10px;
+    border-radius: 10px 10px;
+    color:white;
+    background-color: aqua;
+    box-shadow: 10px 10px 0px black;
+    
+}
+.conteudo-quarto-botao:hover{
+    cursor: pointer;
+    background-color: aqua;
+    transform: scale(1.1);
+}
+.conteudo-quarto-botao:active{
     transform: translateY(4px) translateX(4px);
     box-shadow: white 0px 0px 0px;
 }
